@@ -3,7 +3,7 @@
 Plugin Name: Find Us
 Plugin URI: http://wordpress.designpraxis.at
 Description: Integrates Google Maps with your WordPress website
-Version: 1.3
+Version: 1.4
 Author: Roland Rust
 Author URI: http://wordpress.designpraxis.at
 
@@ -12,6 +12,9 @@ Get your Google API key: http://www.google.com/apis/maps/signup.html
 */
 /* 
 Changelog:
+
+Changes in 1.4:
+- corrections to produce xhtml-strict code
 
 Changes in 1.3:
 - options are deleted on module deactivation
@@ -229,11 +232,8 @@ function dprx_display_find_us($width="",$height="",$ctype="",$endlocation="",$mt
 		<div id="dprx_find_us_map_form" style="float:left;padding-left: 5px;padding-top: 5px;">
 		<form method="post" action="<?php echo $_SERVER["REQUEST_URI"]; ?>">
 			<input type="text" style="width:200px;" id="dprx_form_location" name="dprx_find_us_location_start" value="<?php echo $_REQUEST['dprx_find_us_location_start']; ?>" /><br />
-			<input type="submit" id="dprx_form_setlocation" name="setlocation" Value="<?php _e('Find your way to us &raquo;','dprx_find_us'); ?>" />	
-			</p>
-			<p>
+			<input type="submit" id="dprx_form_setlocation" name="setlocation" value="<?php _e('Find your way to us &raquo;','dprx_find_us'); ?>" /><br />	
 			powered by <a href="http://wordpress.designpraxis.at">designpraxis</a>
-			</p>
 		</form>
 		</div>
 		

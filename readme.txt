@@ -1,6 +1,7 @@
 === Find Us ===
 Contributors: wpdprx
-Tags: map, google maps
+Donate link: http://wordpress.designpraxis.at/
+Tags: map, google maps, google
 Requires at least: 2.1
 Tested up to: 2.2.2
 
@@ -11,7 +12,7 @@ This plugin displays a map on your website and allows your visitors to find thei
 Languages available:
 english
 deutsch(german)
-español(spanish)
+espanol(spanish)
 
 == Installation ==
 

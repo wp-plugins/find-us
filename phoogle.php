@@ -233,7 +233,7 @@ function centerMap($lat,$long){
 *               should be called in between the html <head></head> tags
 */
 	function printGoogleJS(){
-		echo "\n<script src=\"http://maps.google.com/maps?file=api&v=2&key=".$this->apiKey."\" type=\"text/javascript\"></script>\n";
+		echo "\n<script src=\"http://maps.google.com/maps?file=api&amp;v=2&amp;key=".$this->apiKey."\" type=\"text/javascript\"></script>\n";
 	}
 	
 	function js_insides() {
@@ -294,9 +294,12 @@ function centerMap($lat,$long){
 	function showMap(){
 		echo "\n<div id=\"map\" style=\"width: ".$this->mapWidth."px; height: ".$this->mapHeight."px\">\n</div>\n";
 		echo "<script type=\"text/javascript\">\n";
-		echo $this->js_insides();
-	
-    	echo "</script>\n";
+		?>
+		<!--
+		<?php echo $this->js_insides(); ?>
+		//-->
+		<?php
+		echo "</script>\n";
 		}
  ///////////THIS BLOCK OF CODE IS FROM Roger Veciana's CLASS (assoc_array2xml) OBTAINED FROM PHPCLASSES.ORG//////////////
    	function xml2array($xml){
