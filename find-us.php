@@ -219,7 +219,9 @@ function dprx_display_find_us($width="",$height="",$ctype="",$endlocation="",$mt
 			$GLOBALS['dprx_find_us_map']->addAddress($_REQUEST['dprx_find_us_location_start']);
 			$lat = $GLOBALS['dprx_find_us_map']->dprx_find_us_lat(1);
 			$lon = $GLOBALS['dprx_find_us_map']->dprx_find_us_lon(1);
+			if (!empty($lat)) {
 			$GLOBALS['dprx_find_us_map']->centerMap($lat,$lon);
+			}
 		}
 		if (count($GLOBALS['dprx_find_us_map']->validPoints) > 0) {
 			$GLOBALS['dprx_find_us_map']->showMap();

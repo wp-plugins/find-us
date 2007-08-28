@@ -264,10 +264,10 @@ function centerMap($lat,$long){
 		$inside .= "map.addControl(new GMapTypeControl());\n";
 		} 
 	
-		if (!empty($_REQUEST['dprx_location_start'])) {
+		if (!empty($_REQUEST['dprx_find_us_location_start'])) {
 		$inside .= "
 		directions = new GDirections(map, directionsPanel);
-		directions.load('from: ".$_REQUEST['dprx_location_start']." to: ".get_option("dprx_location")."');
+		directions.load('from: ".$_REQUEST['dprx_find_us_location_start']." to: ".get_option("dprx_find_us_location")."');
 		"; 
 		} else {
 			$latlon = explode(",",$this->validPoints[0]['long']);
