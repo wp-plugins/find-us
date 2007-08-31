@@ -127,8 +127,13 @@ function centerMap($lat,$long){
 		die("All Addresses must be passed as a string");
 	  }
 		$apiURL = "http://maps.google.com/maps/geo?&output=xml&key=".$this->apiKey."&q=";
-		$addressData = file_get_contents($apiURL.urlencode($address));
+		//$addressData = file_get_contents($apiURL.urlencode($address));
 		
+	require_once (ABSPATH . WPINC . '/class-snoopy.php');
+	$client = new Snoopy();
+	@$client->fetch($apiURL.urlencode($address));
+	$addressData = $client->results;
+	
 		$results = $this->xml2array($addressData);
 		if (empty($results['kml'][Response]['Placemark']['Point']['coordinates'])){
 			$pointer = count($this->invalidPoints);

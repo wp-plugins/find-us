@@ -4,6 +4,7 @@ Donate link: http://wordpress.designpraxis.at/
 Tags: map, google maps, google
 Requires at least: 2.1
 Tested up to: 2.2.2
+Stable tag: trunk
 
 This plugin displays a map on your website and allows your visitors to find their way to your location.
 
@@ -27,4 +28,15 @@ espanol(spanish)
 = Can I have custom maps from post to post? =
 
 Of course, check out the AdvancedMode of the Find Us Options in your WordPress admin backend.
+
+= I get an error about file_get_contents(), what to do? =
+
+The error
+Warning: file_get_contents() [function.file-get-contents]: URL file-access is disabled in the server configuration
+appears on hosts that do not allow file-access. This error was fixed by using snoopy.
+Download the newest version!
+
+== Screenshots ==
+
+1. Just enter where your journay starts...
 
