@@ -38,5 +38,5 @@ Download the newest version!
 
 == Screenshots ==
 
-1. Just enter where your journay starts...
+1. Just enter where your journey starts...
 
