@@ -3,16 +3,19 @@
 Plugin Name: Find Us
 Plugin URI: http://wordpress.designpraxis.at
 Description: Integrates Google Maps with your WordPress website
-Version: 1.4
+Version: 1.5
 Author: Roland Rust
 Author URI: http://wordpress.designpraxis.at
 
-Phoolge Class by Justin Johnson <justinjohnson@system7designs.com>
+Original Phoolge Class by Justin Johnson <justinjohnson@system7designs.com>
 Get your Google API key: http://www.google.com/apis/maps/signup.html
 */
 /* 
 Changelog:
 
+Changes in 1.5:
+- file_get_contents() in phoogle.php was replaced by snoopy
+	
 Changes in 1.4:
 - corrections to produce xhtml-strict code
 
