@@ -3,7 +3,7 @@
 Plugin Name: Find Us
 Plugin URI: http://wordpress.designpraxis.at
 Description: Integrates Google Maps with your WordPress website
-Version: 1.5
+Version: 1.6
 Author: Roland Rust
 Author URI: http://wordpress.designpraxis.at
 
@@ -12,6 +12,9 @@ Get your Google API key: http://www.google.com/apis/maps/signup.html
 */
 /* 
 Changelog:
+
+Changes in 1.6:
+	- added if (!is_array($res)) { return; } in dprx_check_map_start()
 
 Changes in 1.5:
 - file_get_contents() in phoogle.php was replaced by snoopy
@@ -58,6 +61,7 @@ add_action('wp_head', 'dprx_check_map_start',20);
 function dprx_check_map_start() {
 	$sql = $GLOBALS['wp_the_query']->request;
 	$res = $GLOBALS['wpdb']->get_results($sql, ARRAY_A);
+	if (!is_array($res)) { return; }
 	foreach($res as $r) {
 		preg_match("/(.*?)\[findusmap(.*)(\])(.*?)/", $r['post_content'], $match);
 		if ($match) {
