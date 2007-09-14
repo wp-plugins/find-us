@@ -9,11 +9,7 @@ Stable tag: trunk
 == Description ==
 
 This plugin displays a map on your website and allows your visitors to find their way to your location.
-
-Languages available:
-english
-deutsch(german)
-espanol(spanish)
+Languages available: english, deutsch(german), espanol(spanish)
 
 == Installation ==
 
