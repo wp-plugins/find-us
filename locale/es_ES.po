@@ -1,0 +1,132 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Find Us 1.3\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-08-15 15:36-0400\n"
+"Last-Translator: Alex <alex.ruly@gmail.com>\n"
+"Language-Team: WordPress Designpraxis <wordpress@designpraxis.at>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: E:\\www.designpraxis.at\\wordpress\\wp-content\\plugins\n"
+"X-Poedit-SearchPath-0: find-us\n"
+
+#: find-us/find-us.php:226
+msgid "No valid points found. Please try again"
+msgstr "Ningún punto válido encontrado. Por favor intente otra vez"
+
+#: find-us/find-us.php:234
+msgid "Find your way to us &raquo;"
+msgstr "Encuentra tu camino hacia nosotros &raquo;"
+
+#: find-us/find-us.php:251
+msgid "Find Us"
+msgstr "Find Us"
+
+#: find-us/find-us.php:256
+msgid "Looking for a less komplex Solution? Please swith to "
+msgstr "¿Buscas una solución menos completa? Por favor cambia a"
+
+#: find-us/find-us.php:257
+msgid "EasyMode"
+msgstr "Modo Fácil"
+
+#: find-us/find-us.php:264
+msgid "Looking for more options? Please swith to "
+msgstr "¿Buscas más opciones? Por favor cambia a"
+
+#: find-us/find-us.php:265
+msgid "AdvancedMode"
+msgstr "Modo Avanzado"
+
+#: find-us/find-us.php:274
+msgid "Enter your Google Maps API Key"
+msgstr "Ingresa tu Google Maps API Key"
+
+#: find-us/find-us.php:277
+msgid "Set Google Maps API Key"
+msgstr "Google Maps API Schlüssel speichern"
+
+#: find-us/find-us.php:283
+msgid "Get your Google Maps API key first!"
+msgstr "Obten tu Google Maps API key primero!"
+
+#: find-us/find-us.php:296
+msgid "Where can people find you?"
+msgstr "¿Dónde puede encontrarte la gente?"
+
+#: find-us/find-us.php:297
+msgid "Just type in your address. In case you cannot find it here, try an address near yours and refine location search on the map."
+msgstr "Solamente teclee su dirección. En caso de que no puede encontrarlo aquí, intentar una dirección cerca a la suyay refinar la búsqueda de posición sobre el mapa."
+
+#: find-us/find-us.php:300
+msgid "set your location"
+msgstr "Ingresa tu Localización"
+
+#: find-us/find-us.php:307
+msgid "Map width:"
+msgstr "Ancho del Mapa:"
+
+#: find-us/find-us.php:310
+msgid "Map height:"
+msgstr "Altura del Mapa:"
+
+#: find-us/find-us.php:313
+msgid "Control Type:"
+msgstr "Tipo de Control:"
+
+#: find-us/find-us.php:314
+msgid "large"
+msgstr "grande"
+
+#: find-us/find-us.php:315
+msgid "small"
+msgstr "pequeño"
+
+#: find-us/find-us.php:319
+msgid "Show Map Types:"
+msgstr "Mostrar tipos de mapas:"
+
+#: find-us/find-us.php:326
+msgid "set default options"
+msgstr "fijar opciones por defecto"
+
+#: find-us/find-us.php:331
+msgid "To display the \"Find Us\"-Map, use the following code:"
+msgstr "Para mostrar el \"Find Us\"-Mapa, usa el siguiente código:"
+
+#: find-us/find-us.php:360
+msgid "This is the same as using [findusmap], since without parameters specified, defaults are used"
+msgstr "Esto es el mismo como usando [findusmap], ya que sin parámetros especificados, se usan los de por defecto"
+
+#: find-us/find-us.php:362
+msgid "Change the parameters within the tag to use custom settings for a page or post."
+msgstr "Cambie los parámetros dentro de la etiqueta para usar tus propios ajustes para una página o post"
+
+#: find-us/find-us.php:365
+msgid "You can use following ids to style the map display in css"
+msgstr "Puedes usar las siguientes ids para darle estilo al mapa que se mostrará en css"
+
+#: find-us/find-us.php:368
+msgid "for the div around map and form"
+msgstr "para la div alrededor del mapa y el formulario"
+
+#: find-us/find-us.php:369
+msgid "for the floating div around the form"
+msgstr "para el div flotante alrededor del formulario"
+
+#: find-us/find-us.php:370
+msgid "for the input field"
+msgstr "para el campo de entrada"
+
+#: find-us/find-us.php:371
+msgid "for the submit button"
+msgstr "para el botón de envío"
+
+#: find-us/find-us.php:379
+msgid "This is what your \"Find Us\"-Map will look like:"
+msgstr "Este es como tu \"Find Us\" Mapa se mostrará:"
+
