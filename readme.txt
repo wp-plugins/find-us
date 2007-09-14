@@ -6,14 +6,10 @@ Requires at least: 2.1
 Tested up to: 2.2.2
 Stable tag: trunk
 
-This plugin displays a map on your website and allows your visitors to find their way to your location.
-
 == Description ==
 
-Languages available:
-english
-deutsch(german)
-espanol(spanish)
+This plugin displays a map on your website and allows your visitors to find their way to your location.
+Languages available: english, deutsch(german), espanol(spanish)
 
 == Installation ==
 
