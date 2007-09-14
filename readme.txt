@@ -6,9 +6,9 @@ Requires at least: 2.1
 Tested up to: 2.2.2
 Stable tag: trunk
 
-This plugin displays a map on your website and allows your visitors to find their way to your location.
-
 == Description ==
+
+This plugin displays a map on your website and allows your visitors to find their way to your location.
 
 Languages available:
 english
