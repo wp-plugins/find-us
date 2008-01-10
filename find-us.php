@@ -3,7 +3,7 @@
 Plugin Name: Find Us
 Plugin URI: http://wordpress.designpraxis.at
 Description: Integrates Google Maps with your WordPress website
-Version: 1.6
+Version: 1.7
 Author: Roland Rust
 Author URI: http://wordpress.designpraxis.at
 
@@ -12,6 +12,9 @@ Get your Google API key: http://www.google.com/apis/maps/signup.html
 */
 /* 
 Changelog:
+
+Changes in 1.7:
+	- added dutch locale provided by Bart (http://lentewind.nl/downloads/vertaling-find-us)
 
 Changes in 1.6:
 	- added if (!is_array($res)) { return; } in dprx_check_map_start()

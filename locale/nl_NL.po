@@ -1,0 +1,132 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Find Us 1.3\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2008-01-07 23:20+0100\n"
+"Last-Translator: Bart van Rijsbergen <bart@lentewind.nl>\n"
+"Language-Team: WordPress Designpraxis <wordpress@designpraxis.at>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: E:\\www.designpraxis.at\\wordpress\\wp-content\\plugins\n"
+"X-Poedit-SearchPath-0: find-us\n"
+
+#: find-us/find-us.php:226
+msgid "No valid points found. Please try again"
+msgstr "Geen geldige adressen gevonden, probeer het opnieuw"
+
+#: find-us/find-us.php:234
+msgid "Find your way to us &raquo;"
+msgstr "Plan uw route naar ons &raquo;"
+
+#: find-us/find-us.php:251
+msgid "Find Us"
+msgstr "Vind ons"
+
+#: find-us/find-us.php:256
+msgid "Looking for a less komplex Solution? Please swith to "
+msgstr "Zoek je naar een minder complexe oplossing? Schakel dan naar"
+
+#: find-us/find-us.php:257
+msgid "EasyMode"
+msgstr "Eenvoudige modus"
+
+#: find-us/find-us.php:264
+msgid "Looking for more options? Please swith to "
+msgstr "Suchen Sie nach mehr Optionen? Bitte schalten Sie um auf den"
+
+#: find-us/find-us.php:265
+msgid "AdvancedMode"
+msgstr "Gevorderde modus"
+
+#: find-us/find-us.php:274
+msgid "Enter your Google Maps API Key"
+msgstr "Voer uw Google Maps API Sleutel in"
+
+#: find-us/find-us.php:277
+msgid "Set Google Maps API Key"
+msgstr "Sla uw Google Maps API sleutel op"
+
+#: find-us/find-us.php:283
+msgid "Get your Google Maps API key first!"
+msgstr "Haal eerst uw Google Maps API sleutel op"
+
+#: find-us/find-us.php:296
+msgid "Where can people find you?"
+msgstr "Waar kan men u vinden?"
+
+#: find-us/find-us.php:297
+msgid "Just type in your address. In case you cannot find it here, try an address near yours and refine location search on the map."
+msgstr "Voer uw adres in. Indien u het hier niet kan vinden, probeer dan een adres in de buurt en verfijn uw zoekopdracht op de kaart."
+
+#: find-us/find-us.php:300
+msgid "set your location"
+msgstr "Sla lokatie op"
+
+#: find-us/find-us.php:307
+msgid "Map width:"
+msgstr "Kaart breedte"
+
+#: find-us/find-us.php:310
+msgid "Map height:"
+msgstr "Kaart hoogte:"
+
+#: find-us/find-us.php:313
+msgid "Control Type:"
+msgstr "Control-type:"
+
+#: find-us/find-us.php:314
+msgid "large"
+msgstr "Groot"
+
+#: find-us/find-us.php:315
+msgid "small"
+msgstr "Klein"
+
+#: find-us/find-us.php:319
+msgid "Show Map Types:"
+msgstr "Toon kaartsoorten:"
+
+#: find-us/find-us.php:326
+msgid "set default options"
+msgstr "Standaardinstellingen opslaan"
+
+#: find-us/find-us.php:331
+msgid "To display the \"Find Us\"-Map, use the following code:"
+msgstr "Gebruik de volgende code om de  \"Find Us\"-Kaart te tonen:"
+
+#: find-us/find-us.php:360
+msgid "This is the same as using [findusmap], since without parameters specified, defaults are used"
+msgstr "Dit is hetzelfde als gebruik maken van [findusmap], wanneer er geen voorkeuren opgegeven worden, worden de standaardwaarden gebruikt"
+
+#: find-us/find-us.php:362
+msgid "Change the parameters within the tag to use custom settings for a page or post."
+msgstr "Verander de parameters in de tag om aangepaste instellingen te gebruiken in een pagina of bericht."
+
+#: find-us/find-us.php:365
+msgid "You can use following ids to style the map display in css"
+msgstr "U kunt gebruik maken van de volgende ids om de kaart vorm te geven in css"
+
+#: find-us/find-us.php:368
+msgid "for the div around map and form"
+msgstr "Voor de div rond de kaart en tekstvak"
+
+#: find-us/find-us.php:369
+msgid "for the floating div around the form"
+msgstr "Voor de zwevende div rond het tekstvak"
+
+#: find-us/find-us.php:370
+msgid "for the input field"
+msgstr "Voor het invoervak"
+
+#: find-us/find-us.php:371
+msgid "for the submit button"
+msgstr "Voor de knop 'opslaan'"
+
+#: find-us/find-us.php:379
+msgid "This is what your \"Find Us\"-Map will look like:"
+msgstr "Zo zal uw \"Find Us\" Kaart eruit zien:"
+
